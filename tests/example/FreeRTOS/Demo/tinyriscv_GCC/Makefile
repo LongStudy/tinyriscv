@@ -1,4 +1,4 @@
-RISCV_ARCH := rv32im
+RISCV_ARCH := rv32im_zicsr
 RISCV_ABI := ilp32
 RISCV_MCMODEL := medlow
 
@@ -24,5 +24,5 @@ C_SRCS := \
 
 
 COMMON_DIR = ../../..
-TOOLCHAIN_DIR = ../../../../..
+#TOOLCHAIN_DIR = ../../../../..
 include ../../../common.mk
