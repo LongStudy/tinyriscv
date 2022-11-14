@@ -1,4 +1,4 @@
-RISCV_ARCH := rv32im
+RISCV_ARCH := rv32im_zicsr
 RISCV_ABI := ilp32
 RISCV_MCMODEL := medlow
 
@@ -17,5 +17,5 @@ CFLAGS += -DFLAGS_STR=\""$(CFLAGS)"\"
 CFLAGS += -DITERATIONS=10000 -DPERFORMANCE_RUN=1
 
 COMMON_DIR = ../../bsp
-TOOLCHAIN_DIR = ../../..
+#TOOLCHAIN_DIR = ../../..
 include ../../bsp/common.mk
