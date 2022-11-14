@@ -6,7 +6,7 @@ RISCV_MCMODEL := medlow
 TARGET = timer_int
 
 
-CFLAGS += -DSIMULATION
+#CFLAGS += -DSIMULATION
 #CFLAGS += -Os
 #ASM_SRCS +=
 #LDFLAGS +=
